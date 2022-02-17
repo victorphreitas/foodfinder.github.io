@@ -1,0 +1,116 @@
+{ 
+  "world": [ 
+    { 
+      "name": "Spezzatino",
+      "description": "Spezzatino is an Italian stew consisting of small pieces of meat that are cooked in a small amount of liquid. It's usually made from the less tender cuts of beef, lamb, mutton, or pork, which all have a nice amount of connective tissue and cartilage that breaks down into a hearty gravy.The meat pieces are typically dusted with flour, then fried in butter with carrots, onions, celery, pancetta, and white wine. The combination is cooked slowly for a long time until all the ingredients are covered in a dense sauce. There are also versions of spezzatino with added potatoes or tomatoes, and the name of the dish is derived from the word spezzettare, which means to cut into smaller pieces.",
+      "region": "Tuscany, Italy",
+      "country": "italy",
+      "img": "spezzatino.jpg",
+      "number": 1,
+      "youtube": "https://www.youtube.com/watch?v=-cPt8P1bnw0"
+    },
+    {
+      "name": "Savoiardi",
+      "description": "Savoiardi or ladyfingers are traditional sweet sponge biscuits shaped into a large finger. They were created in the 15th century at the Duchy of Savoy for a visit by the King of France. These official court biscuits were often offered to visitors as a token of local cuisine.The texture of ladyfingers is low in density, light, airy, and dry, and they're usually made with a combination of flour, egg whites and yolks, sugar, and powdered sugar. These sponge biscuits are typically used in desserts such as charlottes and trifles, tiramisu, and chocolate cakes.They're often soaked in liqueur, sugar syrup, or espresso. Nowadays, ladyfingers can be found in most countries across the world.",
+      "region": "Piedmont, Italy",
+      "country": "italy",
+      "img": "savoiardi.jpg",
+      "number": 2,
+      "youtube": "https://www.youtube.com/watch?v=SYS-D43o_bg"
+    },
+    {
+      "name": "Pizza alla diavola",
+      "description": "Diavola is a variety of Italian pizza that is traditionally topped with tomato sauce, mozzarella cheese, spicy salami, and hot chili peppers. Black olives are optional and can be added for extra flavor.",
+      "region": "Some amazing place in Italy",
+      "country": "italy",
+      "img": "diavola.jpg",
+      "number": 3,
+      "youtube": "https://www.youtube.com/watch?v=77I2lvgaqJE"
+    },
+    {
+      "name": "Cuzcuz Nordestino",
+      "description": "Cuscuz nordestino is a traditional dish from the Northeast region of Brazil. It is prepared with corn flour, salt, manioc starch, and either water or coconut milk. The combination of these ingredients is steamed until fragrant. Once prepared, cuscuz nordestino is cut into slices and served hot.This nutritious, inexpensive, and simple dish was brought to Brazil by Portuguese colonizers, and today it's a staple in the Northeast of Brazil in some places, it's even used as a replacement for bread.",
+      "region": "nordeste",
+      "country": "brazil",
+      "img":"cuzcuznordestino.jpg",
+      "number": 1,
+      "youtube":"https://www.youtube.com/watch?v=feQYosqLvwI&t=86s"
+    },
+    {
+      "name": "Tutu de feijão",
+      "description": "Tutu de feijão is a traditional Brazilian dish originating from the region of Minas Gerais. The dish is made with a combination of puréed beans (traditionally black beans) and cassava flour that's used as a thickening agent. Other ingredients used in the dish include bacon, onions, garlic, olive oil, parsley, and bay leaves.Although there are many variations on the dish, it's usually served accompanied by pork sausages, rice, eggs, or sometimes kale.",
+      "region": "minas gerais",
+      "country": "brazil",
+      "img":"tutudefeijao.jpg",
+      "number": 2,
+      "youtube":"https://www.youtube.com/watch?v=RK9J0kWxUO8"
+    }, 
+    {
+      "name": "Pato no Tucupi",
+      "description": "Pato no tucupi is a specialty dish from Belem, consisting of duck stewed with alfavaca (wild Amazonian basil), tomatoes, and onions. The duck is then roasted and stewed with tucupi (yellow juice extracted from cassava) and jambú (a leafy plant with anesthetic properties).The dish is typically served with rice on the side. It is traditionally prepared and consumed once a year, during the Círio de Nazaré festivities.",
+      "region": "North",
+      "country": "brazil",
+      "img":"patotucupi.jpg",
+      "number": 3,
+      "youtube":"https://www.youtube.com/watch?v=7525QYS6N-4"
+    },
+    {
+      "name": "Morcilla de Burgos",
+      "description": "Cuscuz nordestino is a traditional dish from the Northeast region of Brazil. It is prepared with corn flour, salt, manioc starch, and either water or coconut milk. The combination of these ingredients is steamed until fragrant. Once prepared, cuscuz nordestino is cut into slices and served hot.This nutritious, inexpensive, and simple dish was brought to Brazil by Portuguese colonizers, and today it's a staple in the Northeast of Brazil in some places, it's even used as a replacement for bread.",
+      "region": "north",
+      "country": "spain",
+      "img":"burgos.jpg",
+      "number": 1,
+      "youtube":"https://www.youtube.com/watch?v=Yn5bHS3pccE"
+      },
+      {
+      "name": "Boquerones en vinagre",
+      "description": "Morcilla de Burgos are blood sausages that are traditionally made in the province of Burgos. This is one of the many varieties of blood sausage, or black pudding, present all around the world. The recipe for this delicacy is fairly simple and uses only a few humble ingredients.An interesting fact about this recipe is that it doesn't actually involve any meat, since morcilla de Burgos is made by chopping and sautéing the onions with butter, then combining them with rice, lard, blood, and spices. The mixture is then used to fill the sausage casings before being cooked.This sausage owes its flavor mostly to the spices used in its preparation, mainly pepper and paprika. It can be eaten as it is, but it's mostly consumed after being fried or sautéed.",
+      "region": "madrid",
+      "country": "spain",
+      "img": "boqueronesenvinagre.jpg",
+      "number": 2,
+      "youtube": "https://www.youtube.com/watch?v=xn5-a6mDm0g"
+      },
+      {
+      "name": "Napolitana de Chocolate",
+      "description": "Pain au chocolat is a French viennoiserie roll made with a combination of rectangular, yeast-leavened dough and a few chocolate sticks or chocolate ganache. The filled dough is rolled, baked, then served, ideally while still hot or warm. This flaky pastry can be bought at numerous French bakeries and supermarkets.Interestingly, another name for pain au chocolat is chocolatine, and it is mostly used in the southwest of the country. In Bordeaux, there is even a case where customers had to pay more if they ordered a pain au chocolat rather than a chocolatine.It is believed that the southwest stuck with chocolatine because it is similar to the Occitan word chicolatina. Regardless of these name wars, in France, one should never refer to pain au chocolat as a chocolate croissant.",
+      "region": "madrid",
+      "country": "spain",
+      "img":"napolitanachocolate.jpg",
+      "number": 3,
+      "youtube":"https://www.youtube.com/watch?v=k2t7P3cYP0A"
+      },
+      {
+      "name": "Bocadillo de atún",
+      "description": "Bocadillo or bocata de atún is a classic variety of the Spanish bocadillo sandwich. It typically consists of nothing more than a Spanish-style baguette (barra de pan) which is sliced down the middle and filled with a generous amount of canned tuna in oil.The bread's interior may optionally be rubbed with tomato halves, olive oil, or both for added flavor. Apart from the tuna, other common additions to the sandwich's filling include olives, onions, cheese, strips of fire-roasted piquillo peppers, slices of tomatoes or hardboiled eggs, anchovies, and alioli (garlic and mayonnaise sauce).This Spanish-style tuna sandwich makes for an excellent, filling snack or a light meal for breakfast, lunch, or dinner. The sandwich is usually enjoyed either with a glass of cold beer or a cup of coffee with milk (café con leche) on the side.",
+      "region": "madrid",
+      "country": "spain",
+      "img": "bacadillodeatun.jpg",
+      "number": 4,
+      "youtube":"https://www.youtube.com/watch?v=OXuTmparnz4"
+    
+      },
+      {
+      "name": "Albóndigas en salsa",
+      "description": "Albóndigas en salsa is a traditional Spanish dish that's typically eaten as a tapa. This appetizer consists of meatballs in rich tomato sauce. The small meatballs are often made with a combination of beef, pork, veal (or a combination of the three), breadcrumbs, parsley, eggs, garlic, flour, and seasonings, while the sauce is made with garlic, onions, tomatoes, red wine, olive oil, paprika, salt, and stock.Before cooking them in the sauce, the meatballs are usually lightly browned. When the sauce becomes thick, the dish is served, often with crusty bread and a glass of red wine on the side. It is believed that these meatballs originated as a Berber or Arab dish which was brought over to Spain during the Muslim rule.The name is derived from the Arabic word al-bunduq, meaning hazelnut, referring to the small size of the meatballs.",
+      "region": "mistery",
+      "country": "spain",
+      "img": "albóndigasensalsa.jpg",
+      "number": 5,
+      "youtube":"https://www.youtube.com/watch?v=CN-u-fKDt8U"
+      },
+      {
+      "name": "Buñuelos de bacalao",
+      "description": "Buñuelos de bacalao is a savory version of the ubiquitous Spanish buñuelos fritters that uses dried salt cod. These soft and crispy snacks are typically prepared with a combination of desalted and flaked salt cod, flour, eggs, milk or water, and butter, and they are usually flavored with fresh parsley, salt, and pepper.Other common ingredients used for making the dish include potatoes, baking powder, spring onions, garlic, vinegar or lemon juice, paprika, and turmeric. The salt cod mixture is typically shaped into balls, which are then deep-fried until nicely colored, puffed up, and crispy.In Spain, salt cod fritters are a staple at tapas bars throughout the country, and they're usually enjoyed alongside dipping sauces such as aïoli, ajonesa, mojo verde, romesco sauce, yogurt sauce, or other mayonnaise-based sauces.",
+      "region": "barcelona",
+      "country": "spain",
+      "img": "buñuelosdebacalao.jpg",
+      "number": 6,
+      "youtube":"https://www.youtube.com/watch?v=w3w_GX7xl_E"
+      }
+    ]
+}
+
+
+

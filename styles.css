@@ -1,0 +1,45 @@
+/* make it more responsive to mobiles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header h1 {
+  color: #198754;
+  margin: 2rem auto 0.4rem auto;
+}
+
+.blockquote-footer {
+  margin-top: 10px;
+}
+
+.container-results {
+  position: relative;
+  top: 4rem;
+}
+
+.search-input-button {
+  margin-top: 50px;
+}
+.first-row{
+  text-align: center;
+}
+
+.card-items{
+  margin: 0.15rem auto 0 auto;
+}
+
+.error-alert{
+  margin-top: 3rem;
+}
+
+.click-me{
+  margin-left: -15px;
+}
+
+@media screen and (max-width: 991px){
+  .click-me{
+    margin-left: 0;
+    margin-top: 3px;
+  }
+}
