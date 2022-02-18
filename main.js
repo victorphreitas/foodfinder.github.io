@@ -310,16 +310,16 @@ function loadDishes(e){
   //ITALY: from [0,2], BRAZIL: from [3,5], SPAIN: from [6, 11], this is the index range close interval
   let country = ["italy", "italia", "italian", "italiano", "italiana", "italian food", "brazil", "brasil", "brazilian food", "brazilian", "comida brasileira", "brasileira", "spain", "espanha", "spanish food", "spanish", "spnai"];
   let countItaly = 3;
-  let countBrazil = 3;
-  let countSpain = 6;
-
-  let lastItaly = 2;
-  let lastBrazil = 5;
-  let lastSpain = 11;
-
+  let countBrazil = 7;
+  let countSpain = 20;
+  
   let firstItaly = 0;
   let firstBrazil = 3;
-  let firstSpain = 6;
+  let firstSpain = 10;
+
+  let lastItaly = 2;
+  let lastBrazil = 9;
+  let lastSpain = 29;
 
   let randomIndex;
   let randomIndex2;
