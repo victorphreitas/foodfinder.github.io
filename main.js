@@ -307,13 +307,13 @@ function loadDishes(e){
   //I can append this array into the object itself and narrow down by the letters the user is typing... so the user clicks on the country flag or name i will be showing and booom he gets the dishes - idea two
 
   //OBJECTIVE is to have All countries with 100 dishes
-  //ITALY: from [0,2], BRAZIL: from [3,5], SPAIN: from [6, 11], this is the index range close interval
+  //ITALY: from [0,2], BRAZIL: from [3,9], SPAIN: from [10, 29], this is the index range close interval
   let country = ["italy", "italia", "italian", "italiano", "italiana", "italian food", "brazil", "brasil", "brazilian food", "brazilian", "comida brasileira", "brasileira", "spain", "espanha", "spanish food", "spanish", "spnai"];
   let countItaly = 3;
   let countBrazil = 7;
   let countSpain = 20;
-  
-  let firstItaly = 0;
+	
+	let firstItaly = 0;
   let firstBrazil = 3;
   let firstSpain = 10;
 
