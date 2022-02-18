@@ -55,6 +55,42 @@
       "youtube":"https://www.youtube.com/watch?v=7525QYS6N-4"
     },
     {
+      "name": "Sanduiche de mortadella",
+      "description": "Sanduiche de mortadella is a Brazilian sandwich originating from Sao Paulo. The huge sandwich consists of a simple bread roll that's filled with mounds of freshly sliced, stacked, and griddled mortadella, while a layer of cheese is added on top, instantly melting as it touches the hot mortadella.The outer layers of mortadella are crisp and brown, while the inner ones remain silky and supple. Mortadella sandwich really needs no extra condiments, although they are typically available on the counters, and all you really need with this sandwich is a glass of cold Brazilian beer.",
+      "region": "Sao Paulo",
+      "country": "brazil",
+      "img":"mortadela.jpg",
+      "number": 4,
+      "youtube":"https://www.youtube.com/watch?v=bHuSyjuy2zQ"
+    },
+    {
+      "name": "Tareco",
+      "description": "Brazilian hard biscuits known as tarecos are simple cookies consisting of wheat or corn flour, eggs, vanilla, and sugar. They originated in the Brazilian state of Pernambuco, but have since spread and gained popularity throughout Brazil so much that a Brazilian singer Flávio José titled one of his songs Tareco e Mariola. Which means Tareco and Mariola.",
+      "region": "Pernambuco",
+      "country": "brazil",
+      "img":"tareco.jpg",
+      "number": 5,
+      "youtube":"https://www.youtube.com/watch?v=Y8ofUK2VIF8"
+    },
+    {
+      "name": "Moqueca Baiana",
+      "description": "Moqueca Baiana is a seafood stew originating from the Brazilian state of Bahia, hence the word Baiana in its name. It consists of white fish, shrimps, or other seafood combined with coconut milk, dendê palm oil, lime juice, and various vegetables such as red and yellow peppers, tomatoes, spring onions, ginger, garlic, and onions.When done, the dish is typically garnished with chopped coriander, then served with rice and farofa. This seafood stew was originally prepared by the native people of Brazil. Over time, new elements were added to the stew, such as coconut milk, which was first introduced to Brazil by Portuguese colonists, and palm oil, which was brought over to the country by African slaves.",
+      "region": "Bahia",
+      "country": "brazil",
+      "img":"moqueca.jpg",
+      "number": 6,
+      "youtube":"https://www.youtube.com/watch?v=sHaoS9i4X1Y"
+    },
+    {
+      "name": "Alcatra",
+      "description": "Alcatra is a special cut of top sirloin. Large, long, and lean, this steak is prized for its succulence and a hearty beef flavor. The cut is often used for churrasco, the traditional Brazilian barbecue method. Alcatra is one of the largest cuts that's served as a part of churrasco.It should be perfectly seasoned with salt, then grilled with a layer of fat until most of it melts away, and the remaining fat becomes crispy. Before serving, it's usually expertly carved in respectable churrascarias.",
+      "region": "misterious region...",
+      "country": "brazil",
+      "img":"alcatra.jpg",
+      "number": 7,
+      "youtube":"https://www.youtube.com/watch?v=gdHpgjjHbQo"
+    },
+    {
       "name": "Morcilla de Burgos",
       "description": "Cuscuz nordestino is a traditional dish from the Northeast region of Brazil. It is prepared with corn flour, salt, manioc starch, and either water or coconut milk. The combination of these ingredients is steamed until fragrant. Once prepared, cuscuz nordestino is cut into slices and served hot.This nutritious, inexpensive, and simple dish was brought to Brazil by Portuguese colonizers, and today it's a staple in the Northeast of Brazil in some places, it's even used as a replacement for bread.",
       "region": "north",
@@ -108,9 +144,132 @@
       "img": "buñuelosdebacalao.jpg",
       "number": 6,
       "youtube":"https://www.youtube.com/watch?v=w3w_GX7xl_E"
+      },
+      {
+        "name": "Porrusalda",
+        "description": "Warm and comforting, porrusalda is a traditional Basque soup made with vegetables such as carrots, potatoes, leeks, and onions. The soup is flavored with garlic and salt, while dried salt-cod is sometimes added to porrusalda in order to enhance its flavors.Although it is a Basque dish, the soup is more commonly consumed in other parts of Spain such as La Rioja and Castilla y León. It is recommended to garnish this hearty soup with some chopped parsley before serving.",
+        "region": "North of Spain",
+        "country": "spain",
+        "img": "porrusalda.jpg",
+        "number": 7,
+        "youtube":"https://www.youtube.com/watch?v=QWzaO4VcTOI"
+      },
+      {
+        "name": "Mojama",
+        "description": "Mojama is a Spanish delicacy consisting of cured, wind-dried tuna fillets. It is traditionally dried for at least three weeks until the fillets shrink and darken to a reddish-brown color. The meat is usually served as an appetizer or a snack, but it can also be added to salads or paired with anchovies, bread, and olives, although purists insist that only oil should be added to the fillets, as anything else takes away the distinctive flavors of mojama.",
+        "region": "Somewhere in Spain",
+        "country": "spain",
+        "img": "mojama.jpg",
+        "number": 8,
+        "youtube":"https://www.youtube.com/watch?v=KpejuvRNdcg"
+      },
+      {
+        "name": "Papas Arrugadas",
+        "description": "Papas arrugadas (wrinkly potatoes) is the signature dish of the Canary Islands. This incredibly simple specialty is made with whole, unpeeled potatoes that are thoroughly cleaned and then cooked in salted water. The dish was traditionally prepared with seawater, but nowadays, the water is usually just heavily salted.When cooked, the potatoes are put in the same pot without the water. The process allows any additional moisture to evaporate, leaving the potatoes somewhat dry while the skin attains its specific wrinkly appearance—hence the name—and a thin layer of salt.",
+        "region": "Somewhere in Spain",
+        "country": "spain",
+        "img": "papasarrugadas.jpg",
+        "number": 9,
+        "youtube":"https://www.youtube.com/watch?v=QMRxbVh8TeM"
+      },
+      {
+        "name": "Leche Frita",
+        "description": "Leche frita is a delicious Spanish dessert consisting of a sweet, firm milk-pudding encased in a crunchy fried shell of eggs and flour. It is made with flour, cornstarch, sugar, milk, eggs, butter, and olive oil. The whole concoction is flavored with cinnamon.Leche frita, meaning fried milk, can be served cold, at room temperature, or hot, ideally with a scoop of ice cream on the side. Although this old dessert has murky origins, it is believed that the first versions were made by nuns who used to sell these treats to help maintain their convents. ",
+        "region": "province of palencia",
+        "country": "spain",
+        "img": "lechefrita.jpg",
+        "number": 10,
+        "youtube":"https://www.youtube.com/watch?v=vfjL-8j1rAs"
+      },
+      {
+        "name": "Flores de Hojaldre",
+        "description": "Flores de hojaldre is a specialty of the Spanish city of Alcalá de Henares, consisting of puff pastry (hojaldre) that has been rolled into beautiful shapes of flowers or roses. It is the unique shape of the pastry that has given it its name, which translates to flowers of puff pastry.At its simplest, flores de hojaldre are distinguished by a light, airy, and flaky texture, and they are usually served dusted with powdered sugar and accompanied by a cup of coffee on the side. Although it's most commonly made in the sweet version, this traditional Spanish pastry can also be savory, depending on the ingredients used for its preparation. ",
+        "region": "Alcala de Henares",
+        "country": "spain",
+        "img": "floresdehojaldre.jpg",
+        "number": 11,
+        "youtube":"https://www.youtube.com/watch?v=D5ER0j2RGzU"
+      },
+      {
+        "name": "Bocadillo de Calamares",
+        "description": "Bocadillo de calamares is one of the best-known bocadillo sandwiches in Spain, and a most beloved bar snack staple in the country's capital, Madrid. It typically consists of a crusty Spanish-style baguette called barra de pan, which has been sliced in half lengthwise and stuffed with fresh and crunchy fried calamari rings.The calamari are usually dipped in flour and fried in olive oil, while the sandwich's filling may be enhanced with a touch of olive oil or alioli (garlic mayonnaise) or a drizzle of fresh lemon juice. This simple sandwich makes for a filling breakfast, lunch, dinner, or a mid-afternoon snack, and it is traditionally washed down with a small glass of ice-cold draft beer known as a caña in Spanish. ",
+        "region": "Madrid",
+        "country": "spain",
+        "img": "bocadillodecalamares.jpg",
+        "number": 12,
+        "youtube":"https://www.youtube.com/watch?v=r0y4kGiT7aU"
+      },
+      {
+        "name": "Croquetas de Boletus",
+        "description": "Mushroom croquetas are the small-sized Spanish fritters that are prepared with a combination of a creamy béchamel base and diced and sautéed boletus mushrooms. The base is well chilled before it is shaped into round or cylindrical forms.Each piece is coated in egg wash and breadcrumbs, then shortly deep-fried until golden and crispy. Boletus croquetas are often enriched with various spices and sautéed onions and are typically enjoyed as a ubiquitous Spanish tapas. ",
+        "region": "Somewhere in Spain",
+        "country": "spain",
+        "img": "croquetasdeboletus.jpg",
+        "number": 13,
+        "youtube":"https://www.youtube.com/watch?v=zd8Mb-KBiDM"
+      },
+      {
+        "name": "Neula",
+        "description": "Neula is a Catalan biscuit consisting of flour, sugar, beaten egg whites, butter, and lemon juice. The biscuits are very light and thin, and they are typically rolled into hollow tubes. Neulas are traditionally consumed during the Christmas season, accompanied by a Catalan sparkling wine called cava.The name neula is derived from the word nebula, meaning fog, referring to their delicate and light texture.",
+        "region": "Catalonia",
+        "country": "spain",
+        "img": "neula.jpg",
+        "number": 14,
+        "youtube":"https://www.youtube.com/watch?v=-2fvUAAYEbs"
+      },
+      {
+        "name": "Panellets",
+        "description": "Panellets are small marzipan sweets that that come in different forms and variations. They are made from three types of marzipan; basic, coarse, and fine, and various candied fruits or jams can be added to the marzipan. They are an all-natural product made using as few ingredients as possible, without the addition of any artificial colourings or preservatives.The marzipan is made by combining one kilogram of ground almonds with one kilogram of sugar and adding one whole egg, after which the combination is left to rest for 24 hours. The additional ingredients are then added to the mix, and they can include lemon and orange peel, hazelnuts, pine nuts, chestnuts, coffee, etc. ",
+        "region": "Catalonia",
+        "country": "spain",
+        "img": "panellets.jpg",
+        "number": 15,
+        "youtube":"https://www.youtube.com/watch?v=RjQ4drGiSEw"
+      },
+      {
+        "name": "Conejo con Arroz",
+        "description": "Conejo con arroz is a traditional Spanish dish that combines rice with rabbit meat. There are numerous variations on this specialty throughout Spain, with some calling for making the dish in the style of a paella, where it consists of a thin layer of rice with pieces of rabbit on top, and others preparing it as an arroz caldoso, retaining a little bit of the cooking liquid.Apart from the rabbit and rice, other typical ingredients used for making this dish include onions, tomatoes, peppers, carrots, garlic, and olive oil, while the combination is usually flavored with saffron, bay leaves, paprika, salt, and pepper. To prepare conejo con arroz, the pieces of meat are typically browned before they’re combined with the other ingredients and simmered in water or broth.  ",
+        "region": "Calasparra",
+        "country": "spain",
+        "img": "conejoconarroz.jpg",
+        "number": 16,
+        "youtube":"https://www.youtube.com/watch?v=jTqYOTUlUQQ"
+      },
+      {
+        "name": "Croquetas de Pollo",
+        "description": "Like other varieties of Spanish croquetas, this chicken-based version also starts with a buttery béchamel base, which is later mixed with shredded chicken and shaped into small cylindrical or round patties. Before they are fried, the fritters are usually coated in egg wash and breadcrumbs, which provides a golden, crispy exterior, while the center stays delicately soft and gooey.Croquetas de pollo are typically enjoyed as a snack and are a staple tapas dish found throughout the country.",
+        "region": "Somewhere in Spain",
+        "country": "spain",
+        "img": "croquetasdepollo.jpg",
+        "number": 17,
+        "youtube":"https://www.youtube.com/watch?v=SrmYBYpsj7M"
+      },
+      {
+        "name": "Ensaimada de Mallorca",
+        "description": "Ensaimada de Mallorca is a spiral-shaped sweet pastry made with yeast dough that is combined with eggs and lard. This type of bread has been made on the island of Mallorca since the 17th century and the recipe has remained unchanged to this day.The word ensaïmada comes from saïm, meaning lard, which is the essential ingredient in this recipe. The base recipe for ensaimada de Mallorca is very simple and includes only flour, sugar, eggs, yeast, and water.However, there are many variations of this recipe which had been developed during the centuries, including the likes of those with pumpkin, cream, or chocolate.",
+        "region": "Mallorca",
+        "country": "spain",
+        "img": "ensaimadademallorca.jpg",
+        "number": 18,
+        "youtube":"https://www.youtube.com/watch?v=YdOiW3S4D8I"
+      },
+      {
+        "name": "Cordero Asado",
+        "description": "Cordero asado is a popular Castillan dish made by roasting a whole lamb over an open fire. The lamb is usually marinated with lemon, garlic, and various fresh herbs such as rosemary and thyme. Once it is properly cooked, cordero asado is typically accompanied by roasted potatoes and onions on the side.The dish is especially popular during the Christmas season.",
+        "region": "Castile and Leon",
+        "country": "spain",
+        "img": "corderoasado.jpg",
+        "number": 19,
+        "youtube":"https://www.youtube.com/watch?v=17w-eFn-bOI"
+      },
+      {
+        "name": "Tarta de Santiago",
+        "description": "Tarta de Santiago is a sponge cake made with eggs, almonds, and sugar, flavored with either lemon zest, grape marc, sweet wine, or brandy. Optionally, the cake can have a base layer made from puff pastry or shortcrust pastry. The earliest reference to this cake dates back to 1577, but the first recipe appeared rather late, around 1838.The imprint of the Cross of Saint James on top of the cake made with powdered sugar appeared first in 1924 in a cake shop in Santiago Compostela and has since become standard practice. Since 2010, the cake holds a PGI status within Europe, and in traditional Galician cake shops it is still prepared according to 19th-century recipes.",
+        "region": "Santiago",
+        "country": "spain",
+        "img": "tartadesantiago.jpg",
+        "number": 20,
+        "youtube":"https://www.youtube.com/watch?v=TLJIFat1RO4"
       }
     ]
 }
-
-
-
