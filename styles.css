@@ -1,0 +1,99 @@
+/* make it more responsive to mobiles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header h1 {
+  color: #198754;
+  margin: 6rem auto 0.4rem auto;
+}
+
+.blockquote-footer {
+  margin-top: 10px;
+}
+
+.container-results {
+  position: relative;
+  top: 4rem;
+}
+
+.search-input-button {
+  margin-top: 50px;
+}
+.first-row{
+  text-align: center;
+}
+
+.card-items{
+  margin: 0.15rem auto 0 auto;
+}
+
+.error-alert{
+  margin-top: 3rem;
+}
+
+.click-me{
+  margin-left: -15px;
+}
+
+@media screen and (max-width: 991px){
+  .click-me{
+    margin-left: 0;
+    margin-top: 3px;
+  }
+}
+
+.fa {
+  font-size: 24px;
+  color: red;
+  margin-right: 5px;
+}
+
+.fa:hover {
+  transform: rotate(30deg);
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.fa:active {
+  transform: rotate(180deg);
+  transition-duration: 300ms;
+  color: black;
+}
+
+.more-icon {
+  padding: 0;
+  margin: 0;
+  font-size: 36px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.more-icon:hover {
+  transform: translateY(1px);
+  transition-duration: 300ms;
+  color: rgb(47, 0, 177);
+  cursor: pointer;
+}
+
+.more-icon:active {
+  transform: translateY(5px);
+  color: black;
+}
+
+.paragraph-card {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+
+}
+
+.description {
+  margin-top: 50px;
+}
+
+.description-delete {
+  margin-left: 20px;
+}
