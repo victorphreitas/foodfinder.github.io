@@ -301,7 +301,7 @@ function loadDishes(e){
     const userInputText = document.querySelector(".input-text").value.toLowerCase();
     document.querySelector(".input-text").value = "";
 
-    //to better the search algorithm I should have an array of words related to only one country and if the user types any of these words I return the country hes trying to search - idea one 
+    //NOTES: to better the search algorithm I should have an array of words related to only one country and if the user types any of these words I return the country hes trying to search - idea one 
   // const italianArray = ["italy", "italian", "italia", "itralia"];
 
   //I can append this array into the object itself and narrow down by the letters the user is typing... so the user clicks on the country flag or name i will be showing and booom he gets the dishes - idea two
@@ -483,6 +483,7 @@ function loadDishes(e){
 	const divDescription = document.createElement("div");
 	//append a class which will give a style and dimensions to this div
 	divDescription.className = "alert alert-success description";
+	//this is because of bootstrap
 	divDescription.setAttribute("role", "alert");
 
 	for (let i = 0; i < moreIcon.length; i++) {
@@ -511,27 +512,30 @@ function loadDishes(e){
 			document.querySelector(".second-row").appendChild(divDescription)
 		  //options to scroll down the page
 			scrollDown();
-			console.log("you clicked more")
 			//keep coding from here to finish up the description
+			//deleting the whole extra description
+      for (let i = 0; i < document.querySelectorAll(".description").length; i++) {
+		      document.querySelectorAll(".description")[i].children[3].childNodes[1].addEventListener("click", function(event){
+						document.querySelectorAll(".description")[i].remove()
+					})
+	    }
 
 		})
 
-		//add and event listener to delete the entire description
-
-
-		function scrollDown(){
-			const options = {
-				top: 200,
-				left: 0,
-				behavior: 'smooth'
-			}
-			window.scrollTo(options)
-		}
-		
+  //end of for loop
 	}
 
-  }
+	function scrollDown(){
+		const options = {
+			top: 200,
+			left: 0,
+			behavior: 'smooth'
+		}
+		window.scrollTo(options)
+	}
 
+  //end of onload function
+  }
  
   xhr.send();
 
@@ -539,286 +543,3 @@ function loadDishes(e){
   e.preventDefault();
 }
 
-// class FoodGenerator {
-//   constructor(name, description, region, country, recipe, ingredients, img, number, youtube){
-//     this.name = name;
-//     this.description = description;
-//     this.region = region;
-//     this.country = country;
-//     this.recipe = recipe;
-//     this.ingredients = ingredients;
-//     this.img = img;
-//     this.number = number;
-//     this.youtube = youtube;
-//   }
-// }
-
-// const brazil = [];
-
-// const brazil1 = new FoodGenerator("cuzcuz nordestino", "Cuscuz nordestino is a traditional dish from the Northeast region of Brazil. It is prepared with corn flour, salt, manioc starch, and either water or coconut milk. The combination of these ingredients is steamed until fragrant. Once prepared, cuscuz nordestino is cut into slices and served hot.This nutritious, inexpensive, and simple dish was brought to Brazil by Portuguese colonizers, and today it's a staple in the Northeast of Brazil – in some places, it's even used as a replacement for bread.", "nordeste", "brazil", "Mix all dry ingredients in a container.Add the water and coconut milk little by little, until it forms a very wet crumb.Let it rest for 5 minutes.Place in the couscous without kneading.Cook for 15 minutes.Serve hot with curd cheese or sliced mozzarella cheese.", "Cuscuz Ingredientes:\nxícaras de chá de flocão\ncolher de chá de sal\nxícara de chá de água\nCarne de sol cozida e desfiada\nFrango cozido e desfiado\nQueijo ralado\n1 ovo.", "cuzcuznordestino.jpg", 1, "https://www.youtube.com/watch?v=feQYosqLvwI");
-
-// const brazil2 = new FoodGenerator("tutu de feijão", "Tutu de feijão is a traditional Brazilian dish originating from the region of Minas Gerais. The dish is made with a combination of puréed beans (traditionally black beans) and cassava flour that's used as a thickening agent. Other ingredients used in the dish include bacon, onions, garlic, olive oil, parsley, and bay leaves.Although there are many variations on the dish, it's usually served accompanied by pork sausages, rice, eggs, or sometimes kale.", "minas gerais", "brazil", "Method of preparation:\nWash the beans under running water and place in a pressure cooker.\nAdd the water.Add the bay leaves, the chopped bacon. Take the pan to the fire, as soon as it gets pressure, lower the fire and leave for 40 minutes.\nCut the pumpkin into coarse pieces and pre-cooked it, leaving the edge al dente and set aside. Peel and chop the garlic cloves and onion.\nWith the beans already cooked, open the pan and add the pumpkin and bring to the fire again, now without covering the pan.\nIn another pan put the oil and take it to the fire to warm up, first add the garlic and then the onion.\nLet it brown a little and put the beans, with the fire still on let it boil well.\nWhen the beans are ready, put them in the blender, blend everything and return to the pan.\nWhen it is boiling, add the flour little by little, remembering that the pumpkin squash that was put in the cooking of the beans has already left it with a more pasty texture, so it will not be necessary to use a lot of cassava flour.\nKeep stirring and add more flour if necessary until you get the consistency you want. Adjust the salt and serve.", "Ingredientes:\n1/2 kg de feijão\n2 litros de água\n2 folhas de louro\n300g de Abóbora Moranga\n1 cebola\n4 dentes de alho\n150g de bacon\n1 linguiça de porco\n3 colheres de sopa de óleo para refogar o feijão\n¼ xícara de farinha de mandioca\nsal e pimenta-do-reino a gosto", "tutudefeijao.jpg", 2, "https://www.youtube.com/watch?v=RK9J0kWxUO8")
-
-// const brazil1J = JSON.stringify(brazil1);
-// const brazil2J = JSON.stringify(brazil1);
-
-// brazil.push(JSON.stringify(brazil1));
-// brazil.push(JSON.stringify(brazil2));
-
-
-// for(let i = 0; i < 2; i++){
-//   console.log(brazil[i])
-// }
-
-//list of all countries in the world 
-// const countryList = [
-// 	"Afghanistan",
-// 	"Albania",
-// 	"Algeria",
-// 	"American Samoa",
-// 	"Andorra",
-// 	"Angola",
-// 	"Anguilla",
-// 	"Antarctica",
-// 	"Antigua and Barbuda",
-// 	"Argentina",
-// 	"Armenia",
-// 	"Aruba",
-// 	"Australia",
-// 	"Austria",
-// 	"Azerbaijan",
-// 	"Bahamas (the)",
-// 	"Bahrain",
-// 	"Bangladesh",
-// 	"Barbados",
-// 	"Belarus",
-// 	"Belgium",
-// 	"Belize",
-// 	"Benin",
-// 	"Bermuda",
-// 	"Bhutan",
-// 	"Bolivia (Plurinational State of)",
-// 	"Bonaire, Sint Eustatius and Saba",
-// 	"Bosnia and Herzegovina",
-// 	"Botswana",
-// 	"Bouvet Island",
-// 	"Brazil",
-// 	"British Indian Ocean Territory (the)",
-// 	"Brunei Darussalam",
-// 	"Bulgaria",
-// 	"Burkina Faso",
-// 	"Burundi",
-// 	"Cabo Verde",
-// 	"Cambodia",
-// 	"Cameroon",
-// 	"Canada",
-// 	"Cayman Islands (the)",
-// 	"Central African Republic (the)",
-// 	"Chad",
-// 	"Chile",
-// 	"China",
-// 	"Christmas Island",
-// 	"Cocos (Keeling) Islands (the)",
-// 	"Colombia",
-// 	"Comoros (the)",
-// 	"Congo (the Democratic Republic of the)",
-// 	"Congo (the)",
-// 	"Cook Islands (the)",
-// 	"Costa Rica",
-// 	"Croatia",
-// 	"Cuba",
-// 	"Curaçao",
-// 	"Cyprus",
-// 	"Czechia",
-// 	"Côte d'Ivoire",
-// 	"Denmark",
-// 	"Djibouti",
-// 	"Dominica",
-// 	"Dominican Republic (the)",
-// 	"Ecuador",
-// 	"Egypt",
-// 	"El Salvador",
-// 	"Equatorial Guinea",
-// 	"Eritrea",
-// 	"Estonia",
-// 	"Eswatini",
-// 	"Ethiopia",
-// 	"Falkland Islands (the) [Malvinas]",
-// 	"Faroe Islands (the)",
-// 	"Fiji",
-// 	"Finland",
-// 	"France",
-// 	"French Guiana",
-// 	"French Polynesia",
-// 	"French Southern Territories (the)",
-// 	"Gabon",
-// 	"Gambia (the)",
-// 	"Georgia",
-// 	"Germany",
-// 	"Ghana",
-// 	"Gibraltar",
-// 	"Greece",
-// 	"Greenland",
-// 	"Grenada",
-// 	"Guadeloupe",
-// 	"Guam",
-// 	"Guatemala",
-// 	"Guernsey",
-// 	"Guinea",
-// 	"Guinea-Bissau",
-// 	"Guyana",
-// 	"Haiti",
-// 	"Heard Island and McDonald Islands",
-// 	"Holy See (the)",
-// 	"Honduras",
-// 	"Hong Kong",
-// 	"Hungary",
-// 	"Iceland",
-// 	"India",
-// 	"Indonesia",
-// 	"Iran (Islamic Republic of)",
-// 	"Iraq",
-// 	"Ireland",
-// 	"Isle of Man",
-// 	"Israel",
-// 	"Italy",
-// 	"Jamaica",
-// 	"Japan",
-// 	"Jersey",
-// 	"Jordan",
-// 	"Kazakhstan",
-// 	"Kenya",
-// 	"Kiribati",
-// 	"Korea (the Democratic People's Republic of)",
-// 	"Korea (the Republic of)",
-// 	"Kuwait",
-// 	"Kyrgyzstan",
-// 	"Lao People's Democratic Republic (the)",
-// 	"Latvia",
-// 	"Lebanon",
-// 	"Lesotho",
-// 	"Liberia",
-// 	"Libya",
-// 	"Liechtenstein",
-// 	"Lithuania",
-// 	"Luxembourg",
-// 	"Macao",
-// 	"Madagascar",
-// 	"Malawi",
-// 	"Malaysia",
-// 	"Maldives",
-// 	"Mali",
-// 	"Malta",
-// 	"Marshall Islands (the)",
-// 	"Martinique",
-// 	"Mauritania",
-// 	"Mauritius",
-// 	"Mayotte",
-// 	"Mexico",
-// 	"Micronesia (Federated States of)",
-// 	"Moldova (the Republic of)",
-// 	"Monaco",
-// 	"Mongolia",
-// 	"Montenegro",
-// 	"Montserrat",
-// 	"Morocco",
-// 	"Mozambique",
-// 	"Myanmar",
-// 	"Namibia",
-// 	"Nauru",
-// 	"Nepal",
-// 	"Netherlands (the)",
-// 	"New Caledonia",
-// 	"New Zealand",
-// 	"Nicaragua",
-// 	"Niger (the)",
-// 	"Nigeria",
-// 	"Niue",
-// 	"Norfolk Island",
-// 	"Northern Mariana Islands (the)",
-// 	"Norway",
-// 	"Oman",
-// 	"Pakistan",
-// 	"Palau",
-// 	"Palestine, State of",
-// 	"Panama",
-// 	"Papua New Guinea",
-// 	"Paraguay",
-// 	"Peru",
-// 	"Philippines (the)",
-// 	"Pitcairn",
-// 	"Poland",
-// 	"Portugal",
-// 	"Puerto Rico",
-// 	"Qatar",
-// 	"Republic of North Macedonia",
-// 	"Romania",
-// 	"Russian Federation (the)",
-// 	"Rwanda",
-// 	"Réunion",
-// 	"Saint Barthélemy",
-// 	"Saint Helena, Ascension and Tristan da Cunha",
-// 	"Saint Kitts and Nevis",
-// 	"Saint Lucia",
-// 	"Saint Martin (French part)",
-// 	"Saint Pierre and Miquelon",
-// 	"Saint Vincent and the Grenadines",
-// 	"Samoa",
-// 	"San Marino",
-// 	"Sao Tome and Principe",
-// 	"Saudi Arabia",
-// 	"Senegal",
-// 	"Serbia",
-// 	"Seychelles",
-// 	"Sierra Leone",
-// 	"Singapore",
-// 	"Sint Maarten (Dutch part)",
-// 	"Slovakia",
-// 	"Slovenia",
-// 	"Solomon Islands",
-// 	"Somalia",
-// 	"South Africa",
-// 	"South Georgia and the South Sandwich Islands",
-// 	"South Sudan",
-// 	"Spain",
-// 	"Sri Lanka",
-// 	"Sudan (the)",
-// 	"Suriname",
-// 	"Svalbard and Jan Mayen",
-// 	"Sweden",
-// 	"Switzerland",
-// 	"Syrian Arab Republic",
-// 	"Taiwan",
-// 	"Tajikistan",
-// 	"Tanzania, United Republic of",
-// 	"Thailand",
-// 	"Timor-Leste",
-// 	"Togo",
-// 	"Tokelau",
-// 	"Tonga",
-// 	"Trinidad and Tobago",
-// 	"Tunisia",
-// 	"Turkey",
-// 	"Turkmenistan",
-// 	"Turks and Caicos Islands (the)",
-// 	"Tuvalu",
-// 	"Uganda",
-// 	"Ukraine",
-// 	"United Arab Emirates (the)",
-// 	"United Kingdom of Great Britain and Northern Ireland (the)",
-// 	"United States Minor Outlying Islands (the)",
-// 	"United States of America (the)",
-// 	"Uruguay",
-// 	"Uzbekistan",
-// 	"Vanuatu",
-// 	"Venezuela (Bolivarian Republic of)",
-// 	"Viet Nam",
-// 	"Virgin Islands (British)",
-// 	"Virgin Islands (U.S.)",
-// 	"Wallis and Futuna",
-// 	"Western Sahara",
-// 	"Yemen",
-// 	"Zambia",
-// 	"Zimbabwe",
-// 	"Åland Islands"
-// ];
