@@ -510,7 +510,8 @@ function loadDishes(e){
 			}
 
 			document.querySelector(".second-row").appendChild(divDescription)
-		  //options to scroll down the page
+		  //to scroll down the end of the page
+    	window.scrollTo(0,document.querySelector("body").scrollHeight);
 			scrollDown();
 			//keep coding from here to finish up the description
 			//deleting the whole extra description
@@ -523,15 +524,6 @@ function loadDishes(e){
 		})
 
   //end of for loop
-	}
-
-	function scrollDown(){
-		const options = {
-			top: 200,
-			left: 0,
-			behavior: 'smooth'
-		}
-		window.scrollTo(options)
 	}
 
   //end of onload function
