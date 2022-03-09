@@ -512,7 +512,6 @@ function loadDishes(e){
 			document.querySelector(".second-row").appendChild(divDescription)
 		  //to scroll down the end of the page
     	window.scrollTo(0,document.querySelector("body").scrollHeight);
-			scrollDown();
 			//keep coding from here to finish up the description
 			//deleting the whole extra description
       for (let i = 0; i < document.querySelectorAll(".description").length; i++) {
@@ -525,7 +524,6 @@ function loadDishes(e){
 
   //end of for loop
 	}
-
   //end of onload function
   }
  
